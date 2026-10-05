@@ -1,19 +1,63 @@
-The AI Placement Evaluator simulates real-world technical interview rounds by providing dynamically generated questions, real-time response analysis, and actionable career feedback.
+# AI Placement Evaluator
 
-Key Features:
-Domain-Agnostic Engine: Dynamically adapts its evaluation criteria based on the selected domain (e.g., Data Science, Web Development, System Design, or General Aptitude).
+## Objective
+Develop an AI-powered Placement Evaluator that simulates real-world technical interviews through dynamic question generation, real-time response analysis, and structured career feedback.
 
-Structured Feedback System: Forces LLM responses into strict output formats, rating candidates on technical accuracy, communication clarity, and problem-solving depth.
+## Features
+- Domain-Agnostic Interview Engine
+- Dynamic Question Generation
+- Real-Time Response Analysis
+- Structured Candidate Feedback
+- Secure API Key Management
+- Persistent Conversation Context
 
-Secure API Workflow: Key-management handled via the UI sidebar using environment/session isolation to prevent credential leakage.
+## Tech Stack
+- Python 3.10+
+- Streamlit
+- Groq Cloud API / OpenAI API
+- REST API Integration
+- Pydantic
+- JSON Schema
 
-Persistent State Management: Built using Streamlit's session_state to maintain smooth conversation context and prevent state reset bugs during dynamic rerenders.
+## Project Architecture
+User → Streamlit UI → LLM API → Evaluation Engine → Feedback Report
+ 
+## Screenshots
+ 
+### Home Screen
+Shows the main application dashboard with ATS Screening and Interactive Mock Interview modules.
+ 
+ss/home.png
+ 
+### ATS Screening Input
+Upload a resume and provide a job description for profile matching analysis.
+ 
+ss/ats screening input.png
+ 
+### ATS Analysis Report
+AI-generated ATS compatibility report highlighting profile alignment and skill gaps.
+ 
+ss/ats analysis result.png
+ 
+### Technical Interview Question Generation
+Domain-specific technical interview questions generated dynamically based on the selected role.
+ 
+ss/interview question generation.png
 
-Tech Stack:
-Language: Python 3.10+
+### Reference Model Answer
+AI-generated high-performance reference solution used as the evaluation benchmark.
 
-Frontend / UI: Streamlit
+ss/reference model answer.png
 
-LLM Orchestration: REST API Orchestration / Groq Cloud API / OpenAI API
+### Candidate Performance Report
+Comprehensive feedback report including performance score, strengths, conceptual gaps, and improvement recommendations.
 
-Data Structure & Validation: Pydantic / JSON Schema
+ss/candidate performance report.png
+ 
+## Installation
+
+```bash
+git clone https://github.com/your-username/AI-Placement-Evaluator.git
+cd AI-Placement-Evaluator
+pip install -r requirements.txt
+streamlit run app.py
