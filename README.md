@@ -32,27 +32,27 @@ ss/home.png
 ### ATS Screening Input
 Upload a resume and provide a job description for profile matching analysis.
  
-ss/ats screening input.png
+ss/ats-screening-input.png
  
 ### ATS Analysis Report
 AI-generated ATS compatibility report highlighting profile alignment and skill gaps.
  
-ss/ats analysis result.png
+ss/ats-analysis-result.png
  
 ### Technical Interview Question Generation
 Domain-specific technical interview questions generated dynamically based on the selected role.
  
-ss/interview question generation.png
+ss/interview-question-generation.png
 
 ### Reference Model Answer
 AI-generated high-performance reference solution used as the evaluation benchmark.
 
-ss/reference model answer.png
+ss/reference-model-answer.png
 
 ### Candidate Performance Report
 Comprehensive feedback report including performance score, strengths, conceptual gaps, and improvement recommendations.
 
-ss/candidate performance report.png
+ss/candidate-performance-report.png
  
 ## Installation
 
