@@ -23,7 +23,6 @@ Develop an AI-powered Placement Evaluator that simulates real-world technical in
 User → Streamlit UI → LLM API → Evaluation Engine → Feedback Report
  
 ## Screenshots
- 
 ### Home Screen
 Shows the main application dashboard with ATS Screening and Interactive Mock Interview modules.
  
@@ -33,7 +32,8 @@ ss/home.png
 ### ATS Screening Input
 Upload a resume and provide a job description for profile matching analysis.
  
-ss/ats-screening-input.png
+./ss/ats-screening-input.png
+
  
 ### ATS Analysis Report
 AI-generated ATS compatibility report highlighting profile alignment and skill gaps.
