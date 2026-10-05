@@ -36,8 +36,6 @@ Upload a resume and provide a job description for profile matching analysis.
 ### ATS Analysis Report
 AI-generated ATS compatibility report highlighting profile alignment and skill gaps.
  
-### ATS Analysis Report
-
 ![](ss/ats-analysis-result.png)
  
 ### Technical Interview Question Generation
