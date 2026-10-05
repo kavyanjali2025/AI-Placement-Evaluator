@@ -28,7 +28,7 @@ User → Streamlit UI → LLM API → Evaluation Engine → Feedback Report
 Shows the main application dashboard with ATS Screening and Interactive Mock Interview modules.
  
 ss/home.png
- 
+
 ### ATS Screening Input
 Upload a resume and provide a job description for profile matching analysis.
  
